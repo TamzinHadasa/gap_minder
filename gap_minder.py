@@ -4,6 +4,8 @@ from typing import Any, Iterable, Literal, TypedDict
 
 import requests
 
+import config
+
 
 class Data(TypedDict):
     project: str
@@ -28,8 +30,8 @@ class Contrib(TypedDict):
 
 ContribList = list[Contrib]
 HEADERS = {
-    'User-Agent': 'edit timing analyzer [pre-alpha]',
-    'From': 'wikimedian@tamz.in'
+    'User-Agent': 'edit timing analyzer [alpha]',
+    'From': config.FROM
 }
 API_PATH = "https://xtools.wmcloud.org/api/user/nonautomated_edits/en.wikipedia"
 
