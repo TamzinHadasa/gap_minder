@@ -30,7 +30,7 @@ class Contrib(TypedDict):
 
 ContribList = list[Contrib]
 HEADERS = {
-    'User-Agent': 'edit timing analyzer [alpha]',
+    'User-Agent': 'gap_minder.py edit timing analyzer [alpha]',
     'From': config.FROM
 }
 API_PATH = "https://xtools.wmcloud.org/api/user/nonautomated_edits/en.wikipedia"
