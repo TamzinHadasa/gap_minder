@@ -1,3 +1,6 @@
+__author__ = "Tamzin Hadasa Kelly"
+__version__ = "0.1.2"
+
 import datetime as dt
 from collections import UserList
 from typing import Any, Iterable, Literal, TypedDict
